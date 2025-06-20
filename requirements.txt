@@ -1,0 +1,20 @@
+# --- core server & web ---
+fastapi>=0.111
+uvicorn[standard]>=0.29          # ASGI server
+
+# --- PDF processing ---
+pypdf>=4.2                       # read / write PDFs
+pdf2image>=1.17                  # rasterize PDF → PNG
+reportlab>=4.1                   # draw overlay text
+Pillow>=10.3                     # required by pdf2image
+
+# --- LLM / OpenAI ---
+openai>=1.25                     # new SDK with chat.completions
+pydantic>=2.6                    # required by openai>=1.x
+
+# --- file uploads ---
+python-multipart>=0.0.7          # FastAPI file handling
+
+# --- optional extras ---
+python-dotenv>=1.0               # load OPENAI_API_KEY from .env
+redis>=5.0                       # if you switch sessions to Redis
