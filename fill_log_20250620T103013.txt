@@ -1,0 +1,12 @@
+=== Fri Jun 20 10:30:13 PDT 2025  Starting PDF fill session ===
+
+[1] Creating context …
+Response: {"id":"e8b912ce-b636-4fa2-a4cc-2fb320475676","missing":["Name","Email","Birthday"]}
+Context ID: e8b912ce-b636-4fa2-a4cc-2fb320475676
+
+[2] Sending answers …
+{"accepted":["Name","Email","Birthday"],"missing":[]}
+[3] Requesting filled PDF …
+filled_form.pdf written ✓
+
+=== Fri Jun 20 10:30:17 PDT 2025  Done. Full log in fill_log_20250620T103013.txt ===
